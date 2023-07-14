@@ -25,7 +25,7 @@
  
 ## Installation 
  
- [![Install PowerDeleteSuite](https://i.imgur.com/c0s8Mm2.png)](https://codepen.io/j0be/full/WMBWOW/)
+ [![Install PowerDeleteSuite](https://i.imgur.com/c0s8Mm2.png)](https://codepen.io/blhoward2/pen/ExOQGMo))
  
 ## Bugs / Issues?
  
