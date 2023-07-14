@@ -467,7 +467,6 @@ var pd = {
       }
     },
     delete: function (item) {
-      setTimeout(() => {
       if (pd.performActions) {
         $.ajax({
           url: '/api/del',
@@ -495,9 +494,8 @@ var pd = {
         pd.task.after = pd.task.items[0].data.name;
         pd.actions.children.handleSingle();
       }
-      },5)},
+      },
     edit: function (item) {
-     setTimeout(() => {
       if (pd.performActions) {
         $.ajax({
           url: '/api/editusertext',
@@ -524,7 +522,7 @@ var pd = {
         pd.task.items[0].pdEdited = true;
         pd.actions.children.handleSingle();
       }
-    },5000)},
+    },
   },
   ui: {
     updateDisplay: function () {
