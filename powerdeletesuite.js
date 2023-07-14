@@ -22,7 +22,7 @@ var pd = {
         if (typeof window.bookmarkver === 'undefined' || window.bookmarkver !== pd.bookmarkver) {
           if (confirm('There\'s been an update to the bookmarklet. Would you like to go to the Github repo in order to get the latest version?')) {
             alert('Sadly, there]\'s no way to automatically update the bookmark. :/\nScroll down to the "Install PowerDeleteSuite" button on the github page. Replace your CURRENT bookmark with the one found there to install the latest bookmark.');
-            document.location.href = 'https://github.com/j0be/PowerDeleteSuite';
+            document.location.href = 'https://github.com/blhoward2/PowerDeleteSuite';
             return false;
           }
         }
@@ -582,7 +582,7 @@ var pd = {
       $('#pd__central .complete .goodbye').html(
         '<hr/><h3 class="submit-bug">'+
           '<div>Having trouble?</div>'+
-          '<div><a href="https://www.reddit.com/message/compose?to=j0be&subject=PowerDeleteSuite%20Config&message='+encodeURIComponent(debugInfo)+'" target="_blank">Send /u/j0be a message with your current settings.</a></div>'+
+          '<div><a href="https://www.reddit.com/message/compose?to=blhoward2&subject=PowerDeleteSuite%20Config&message='+encodeURIComponent(debugInfo)+'" target="_blank">Send /u/blhoward2 a message with your current settings.</a></div>'+
           '<div><small>(for privacy, subreddit list is not included)</small></div>'+
         '</h3>');
 
@@ -595,7 +595,7 @@ var pd = {
     }
   },
   error: function() {
-    var reset = confirm("We ran into an error. Why not tell /u/j0be what you were doing to break it?\r\n\r\nWould you like to restart the script?");
+    var reset = confirm("We ran into an error. Why not tell /u/blhoward2 what you were doing to break it?\r\n\r\nWould you like to restart the script?");
 	window.pd_processing = false;
 	if (reset) {
 		pd.init();
